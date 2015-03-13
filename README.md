@@ -1,4 +1,6 @@
-###CS 398 final project###
+###Web development Fall 2014 final project###
+
+[Final video demo](http://youtu.be/bLARwToWyxY)
 
 We will be running a Team Fortress 2 game server that hooks into game events with a plugin that uses the modding framework SourceMod. This plugin will send data to our Node.js server which processes the data and pushes it out to clients. 
 
@@ -50,13 +52,12 @@ Technologies used:
 
 Contributions:
 
+* Paul: Wrote web-testing interface; Made kill feed, hooked up components and sockets
 * Eric: wrote plugin that goes into the game server and sends requests to the node server; hosted servers; designed project
 * Michael: Found images on internet to represent classes
 * Josh: Wrote scoreboard (components, actions, constants, team store, etc)
-* Paul: Wrote web-testing interface; Made kill feed
 
 Bhuwan: 
 http://tf2.intense.io:8000/ hosts live site, but wont have anything if game server is not running.  
 From top level directory, npm install to get node_modules, and npm start to start test server  
 server at localhost:8000 , test interface at http://localhost:8000/test-interface.html  
-After done testing, recommend Paul to facebook  
